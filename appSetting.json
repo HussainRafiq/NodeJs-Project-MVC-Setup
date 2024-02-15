@@ -1,0 +1,17 @@
+{
+  "AppSetting": {
+    "Port":4532
+  },
+  "DBConfiguration":{
+    "type": "mssql",
+    "host": "st1.learn360lms.com",
+    "port": 10190,
+    "username": "sa",
+    "password": "system@1",
+    "database": "TypeOrmTesting",
+    "entities": ["./src/entities/*.entity.ts"],
+    "migrations": ["./migrations/*.ts"],    
+    "options": {"trustServerCertificate": true} ,
+    "synchronize": false
+  }
+}

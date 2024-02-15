@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": [
+    "es2015"
+  ],
+  "include": [
+    "src/swagger-output.json",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
